@@ -37,7 +37,3 @@ class PasswordManager(SQLite):
 
 if __name__ == '__main__':
     test = PasswordManager()
-    # print(string.printable[:94])
-    # print(test.password_without_not_allowed_chars('*-+()~":'))
-    # print(test.password_with_only_allowed_chars('-+^&*()_'))
-    # print(test.show_all())

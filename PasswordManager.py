@@ -9,9 +9,6 @@ class GuiPasswordManager(tk.Frame, PasswordManager):
         super().__init__(window)
         PasswordManager.__init__(self)
 
-    def init_main(self):
-        pass
-
 
 if __name__ == '__main__':
     window = tk.Tk()

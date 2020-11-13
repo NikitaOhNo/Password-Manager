@@ -66,12 +66,3 @@ class SQLite:
 
 if __name__ == '__main__':
     test = SQLite('data.db')
-    # print(test.get_data_by_name('Anim'))
-    # test.insert_login_data_to_db('Anim', 'FFFF', 'dsdsdfhtkluukj')
-    # test.delete_item_by_platform_name('Gmail')
-    # test.update_password('Anim', '23jdk35')
-    # test.update_login('Gmbb', 'gno')
-    # test.connect_to_database.commit()
-    # test.get_everything_from_db()
-    # print(test.cursor.fetchall())
-    # sqlite3.OperationalError
